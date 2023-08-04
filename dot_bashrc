@@ -25,3 +25,9 @@ if [ -d ~/.bashrc.d ]; then
 fi
 
 unset rc
+
+EDITOR=nvim
+
+alias k=kubectl
+
+export DOCKER_HOST="unix://$XDG_RUNTIME_DIR/podman/podman.sock"
